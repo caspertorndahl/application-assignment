@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/caspertorndahl/application-assignment/issues"
   },
-  "homepage": "https://github.com/caspertorndahl/application-assignment#readme"
+  "homepage": "https://github.com/caspertorndahl/application-assignment#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

@@ -72,10 +72,10 @@ api.get('/user/:userId/registration', (request, response) => {
     return response
         .status(404)
         .send({
-            'error': 'Sorry, no user were found with ID \'' + request.params.userId + '\''
+            'error': 'Sorry, no user was found with ID \'' + request.params.userId + '\''
         });
 });
 
 api.listen(8080, () => {
-   console.log('API running at port 8080 on localhost');
+   console.log('API running at http://localhost:8080');
 });
